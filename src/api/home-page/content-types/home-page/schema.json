@@ -14,13 +14,10 @@
     "title": {
       "type": "string"
     },
-    "imagenFondoHomePage": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+    "hero_slide": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::hero-slide.hero-slide"
     }
   }
 }
