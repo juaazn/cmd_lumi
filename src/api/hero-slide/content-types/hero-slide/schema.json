@@ -19,17 +19,19 @@
         "images"
       ]
     },
-    "Title": {
+    "title": {
       "type": "string",
       "default": "Producto",
       "required": true
     },
-    "subTitle": {
+    "subtitle": {
       "type": "string",
+      "maxLength": 55,
       "required": true
     },
     "description": {
       "type": "string",
+      "maxLength": 100,
       "required": true
     },
     "order": {
